@@ -27,22 +27,27 @@ public class RegistrationForm {
     public void fillUserName(String name){
         userNameInput.fill(name);
     }
+
     @Step("Fill First name")
     public void fillFirstName(String firstName){
         firstMameInput.fill(firstName);
     }
+
     @Step("Fill Last name")
     public void fillLastName(String lastName){
         lastMameInput.fill(lastName);
     }
+
     @Step("Fill email")
     public void fillEmail(String email){
         emailInput.fill(email);
     }
+
     @Step("Fill password")
     public void fillPassword(String password){
         passwordInput.fill(password);
     }
+
     @Step("Click to registration button")
     public void clickSubmitRegistrationButton(){
         submitRegistrationButton.click();

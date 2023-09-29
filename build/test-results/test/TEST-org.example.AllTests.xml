@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Class with all tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-29T09:09:04" hostname="WIN-42C6JQ980KM" time="8.587">
+  <properties/>
+  <testcase name="Checking the total amount of items in the basket" classname="org.example.AllTests" time="8.587"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

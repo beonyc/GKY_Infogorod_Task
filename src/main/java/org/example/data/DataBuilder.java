@@ -16,6 +16,7 @@ public class DataBuilder {
     private String lastMame;
     private String email;
     private String password;
+    private  String URL = "http://localhost/index.html";
     @Getter(AccessLevel.PRIVATE)
     private Faker faker = new Faker();
 

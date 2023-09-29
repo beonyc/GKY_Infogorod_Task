@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 29 12:09:04 MSK 2023","Fri Sep 29 12:09:12 MSK 2023","8508","","Class with all tests","","org.example.AllTests","checkIfTotalCartPriceIsCorrectTest","Checking the total amount of items in the basket","e2e test for authorization and adding goods to the cart with verification that the sum of the price of goods in the basket corresponds to the sum of the prices of the ordered goods"

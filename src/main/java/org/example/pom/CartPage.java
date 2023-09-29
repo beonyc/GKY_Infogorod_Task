@@ -29,7 +29,6 @@ public class CartPage {
     @Step("counting the sum of all goods and returning the price as a response")
     public double countAllItemsPricesInTotal() {
         double price = 0.0;
-
         for (int i = 0; i < totalPriceForEachItem.count(); i++)
             price += Double.parseDouble(totalPriceForEachItem.nth(i).innerText().replace("$", ""));
         return price;
