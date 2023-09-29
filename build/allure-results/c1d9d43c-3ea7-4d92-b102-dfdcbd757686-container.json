@@ -1,1 +1,0 @@
-{"uuid":"c1d9d43c-3ea7-4d92-b102-dfdcbd757686","name":"Checking the total amount of items in the basket","children":["b8d237f7-48e8-40cf-8eea-8b023aebf2de"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1695848293773,"stop":1695848295811}],"afters":[],"start":1695848293718,"stop":1695848302303}
