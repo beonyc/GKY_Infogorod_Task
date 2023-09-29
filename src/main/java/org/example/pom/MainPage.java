@@ -14,8 +14,8 @@ public class MainPage {
 
     public MainPage(Page page) {
         this.page = page;
-        this.registrationButton = page.locator("//*[@id='register']");
-        this.loginButton = page.locator("//*[@id='login']");
+        this.registrationButton = page.locator("#register");
+        this.loginButton = page.locator("#login");
         this.catalogue = page.locator(".dropdown-toggle");
         this.cart = page.locator(".navbar-buttons a[href='basket.html']");
         this.logOutButton = page.locator("//ul//a[text()='Logout']");
@@ -25,6 +25,7 @@ public class MainPage {
     public void clickLogOutButton() {
         logOutButton.click();
     }
+
     @Step("Click logIn Button")
     public void clickLogInButton(){
         loginButton.click();

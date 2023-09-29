@@ -6,11 +6,9 @@ import io.qameta.allure.Step;
 
 public class CataloguePage {
     private Page page;
-    private Locator productAddToCartButton;
 
     public CataloguePage(Page page) {
         this.page = page;
-
     }
     @Step("Add product in the cart")
     public void addProductToCart(String productName){
